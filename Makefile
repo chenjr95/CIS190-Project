@@ -24,6 +24,9 @@ GridClass.o: GridClass.cpp
 main.o: main.cpp
 	g++ -c -Wall main.cpp
 
+run:
+	./2048
+
 
 ########################################
 # rules for cleaning away excess files #

@@ -141,6 +141,11 @@ int Grid::UpdateGrid(string dir) {
         cout << "Thank you for playing our AmazeBalls game!!!" << endl;
         return 3;
     }
+    else if(dir == "gibsonisbetterthanpm")
+    {
+        fullGrid.at(3).at(3).SetNumber(1024);
+        fullGrid.at(3).at(2).SetNumber(1024);
+    }
     else
     {
         cout << "Error please use wasd to choose a direction" << endl;
